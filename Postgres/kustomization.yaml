@@ -1,0 +1,8 @@
+resources:
+- postgres-config.yaml
+- postgres-deployment.yaml
+- postgres-pvc-pv.yaml
+- postgres-service.yaml
+
+commonLabels:
+  app: postgres

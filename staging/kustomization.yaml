@@ -1,0 +1,7 @@
+bases:
+  - ../base
+
+commonLabels:
+  variant: staging
+
+namespace: staging

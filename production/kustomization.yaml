@@ -1,0 +1,14 @@
+bases:
+  - ../base
+
+resources:
+  - userdata.pvc.yaml
+
+patches:
+  - persist-userdata.patch.yaml
+
+commonLabels:
+  variant: production
+
+namespace: production
+
